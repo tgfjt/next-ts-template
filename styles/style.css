@@ -1,0 +1,15 @@
+/* .example {
+  font-size: 50px;
+} */
+
+body {
+  /* --color-text: #455; */
+  padding: 0 4rem;
+  margin: 0;
+  color: var(--color-text);
+}
+
+.layout {
+  display: grid;
+  grid-template-rows: 60px minmax(100px, 500px) 1fr;
+}
